@@ -1,0 +1,33 @@
+<form [formGroup]="myForm" (ngSubmit)="submitForm()" novalidate>
+  <mat-form-field style="width: 100%;">
+    <input matInput placeholder="product Name" formControlName="productName" autocomplete="off">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <mat-label>Select Category</mat-label>
+    <mat-select formControlName="category">
+      <mat-option *ngFor="let c of categoryList" [value]="c">{{c}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field style="width: 100%;">
+    <input matInput type="number" placeholder="Quality" formControlName="quality" autocomplete="off">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <input matInput type="number" placeholder="Price" formControlName="price" autocomplete="off">
+  </mat-form-field>
+  <mat-form-field style="width: 100%;">
+    <input matInput placeholder="image Url" formControlName="image" autocomplete="off">
+  </mat-form-field>
+
+
+
+
+
+
+  <!-- Submit -->
+  <div class="button-wrapper" style="text-align: center;">
+    <button *ngIf="data.status == 'add'" mat-flat-button color="primary">Add</button>
+    <button *ngIf="data.status == 'update'" mat-flat-button color="primary">Update</button>
+  </div>
+
+</form>

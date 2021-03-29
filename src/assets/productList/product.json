@@ -1,0 +1,30 @@
+[
+    {
+        "productName": "Fashion",
+        "category": "Apparels",
+        "quality": 2,
+        "price": 200,
+        "image": "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-p9q5co22nq0kstmevpte21sh73-20191220013731.Medi.jpeg"
+    },
+    {
+        "productName": "puma",
+        "category": "shoes",
+        "quality": 3,
+        "price": 800,
+        "image": "https://www.efootwear.eu/media/catalog/product/cache/image/650x650/0/0/0000200381817_01_ks.jpg"
+    },
+    {
+        "productName": "Fancy",
+        "category": "Cosmetics",
+        "quality": 5,
+        "price": 1000,
+        "image": "https://media.allure.com/photos/5a1359b05a661941e3b80a96/1:1/w_400%2Cc_limit/bhcosmetics.jpg"
+    },
+    {
+        "productName": "nike",
+        "category": "shoes",
+        "quality": 2,
+        "price": 1100,
+        "image": "https://www.efootwear.eu/media/catalog/product/cache/image/650x650/0/0/0000200381817_01_ks.jpg"
+    }
+]

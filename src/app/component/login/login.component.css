@@ -1,0 +1,17 @@
+.loginMainCon{
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    place-content: center;
+    align-items: center;
+    background-color: #dadada;
+}
+.loginButtonCon{
+    margin:10px;
+    display: flex;
+    place-content: center;
+    align-items: center; 
+}
+.loginButtonCon button{
+    width: 200px;
+}

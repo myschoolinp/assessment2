@@ -1,0 +1,16 @@
+.noDataFound{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 50px);
+}
+.minCon{
+    min-width: 500px;
+}
+.addScroll{
+    overflow: auto;
+}
+.mat-row:hover {
+    background-color: #efefef;
+  }
